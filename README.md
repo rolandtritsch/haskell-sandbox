@@ -1,2 +1,1 @@
-# haskell-sandbox
-My Haskell Playground
+# My Haskell Playground
