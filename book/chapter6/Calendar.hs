@@ -1,4 +1,4 @@
--- Date.hs
+-- Calendar.hs
 module Calendar where
 
 data DayOfWeek =
@@ -9,7 +9,7 @@ data DayOfWeek =
   Fri |
   Sat |
   Sun
-  deriving Show
+  deriving (Ord, Show)
 
 data Date = Date DayOfWeek Int deriving Show
 

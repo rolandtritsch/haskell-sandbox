@@ -1,4 +1,4 @@
--- isPalindrome.hs
+-- IsPalindrome.hs
 module IsPalindrom where
 
 isPalindrom x = do

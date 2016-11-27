@@ -1,4 +1,5 @@
-module Learn2 where
+-- WaxOn.hs
+module WaxOn where
 
 waxOn = x * 5 where
   z = 7

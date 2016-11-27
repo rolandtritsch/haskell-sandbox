@@ -1,4 +1,4 @@
--- printing.hs
+-- Printing.hs
 module Printing where
 
 myGreeting :: String
