@@ -1,0 +1,16 @@
+Data.Data tyconUQname :: String -> String
+Data.Data tyconModule :: String -> String
+Debug.Trace traceId :: String -> String
+Test.QuickCheck.Text oneLine :: String -> String
+Test.QuickCheck.Text bold :: String -> String
+System.Process.Internals translate :: String -> String
+Test.HUnit.Terminal terminalAppearance :: String -> String
+Codec.Binary.UTF8.String encodeString :: String -> String
+Codec.Binary.UTF8.String decodeString :: String -> String
+Codec.Binary.UTF8.String utf8Encode :: String -> String
+Distribution.Simple.Program.Internal stripExtractVersion :: String -> String
+Distribution.Simple.Test.Log summarizeSuiteStart :: String -> String
+Distribution.Simple.Utils fromUTF8 :: String -> String
+Distribution.Simple.Utils toUTF8 :: String -> String
+Distribution.Simple.Utils normaliseLineEndings :: String -> String
+-- plus more results not shown, pass --count=25 to see more
