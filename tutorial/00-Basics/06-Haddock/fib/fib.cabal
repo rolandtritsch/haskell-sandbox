@@ -1,0 +1,38 @@
+name:                fib
+version:             0.1.0.0
+synopsis:            Calc the fib seq
+description:         See README
+homepage:            https://github.com/rolandtritsch/haskell-sandbox
+license:             BSD3
+license-file:        LICENSE
+author:              Roland Tritsch
+maintainer:          roland@tritsch.org
+copyright:           2017, Roland Tritsch
+category:            Web
+build-type:          Simple
+extra-source-files:  README.md
+cabal-version:       >=1.10
+
+library
+  hs-source-dirs:    src
+  exposed-modules:   Fibonacci
+  build-depends:     base >= 4.7 && < 5
+  default-language:  Haskell2010
+
+executable fib
+  hs-source-dirs:    app
+  main-is:           Main.hs
+  ghc-options:       -Wall -threaded -rtsopts -with-rtsopts=-N
+  build-depends:     base,
+                     fib
+  default-language:  Haskell2010
+
+test-suite fib-test
+  type:              exitcode-stdio-1.0
+  hs-source-dirs:    test
+  main-is:           Spec.hs
+  ghc-options:       -Wall -threaded -rtsopts -with-rtsopts=-N
+  build-depends:     base,
+                     fib,
+                     hspec
+  default-language:  Haskell2010
